@@ -1,6 +1,6 @@
 import "./input.css";
 import "./App.css"
-import { changeTheme } from "./themeChange";
+import { changeTheme } from "./utilityFunctions/themeChange";
 
 function App() {
   return (
