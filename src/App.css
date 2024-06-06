@@ -1,0 +1,34 @@
+:root {
+  --screen-bg-color: black;
+  --bg-color: #121313;
+  --component-bg-color: #252425;
+  --text-color: white;
+
+  ---webkit-box-shadow: "";
+  ---moz-box-shadow: "";
+  --box-shadow: "";
+}
+
+.light-theme {
+  --screen-bg-color: rgb(233, 236, 239);
+  --bg-color: rgb(228,234,242);
+  --component-bg-color: white;
+  --text-color: black;
+
+  ---webkit-box-shadow: "-1px -1px 16px 0px rgba(0,0,0,0.68)";
+  ---moz-box-shadow: "-1px -1px 16px 0px rgba(0,0,0,0.68)";
+  --box-shadow: "-1px -1px 16px 0px rgba(0,0,0,0.68)";
+}
+
+.container {
+  color: var(--text-color);
+}
+
+.screen-bg-color {
+  background-color: var(--screen-bg-color);
+}
+
+.bg-color {
+  background-color: var(--bg-color);
+  transform: translate(-50%, -50%);
+}
